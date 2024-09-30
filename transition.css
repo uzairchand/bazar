@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.fancy-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-property: background-color, transform, box-shadow;
+    transition-duration: 0.4s, 0.4s, 0.2s;
+    transition-timing-function: ease-in-out, ease, linear;
+    transition-delay: 0.2s, 0s, 0s;
+}
+
+.fancy-btn:hover {
+    background-color: #2ecc71;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
